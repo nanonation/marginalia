@@ -1,4 +1,4 @@
-(defproject net.nanonation/marginalia "0.8.0-SNAPSHOT"
+(defproject net.nanonation/marginalia "0.8.1-SNAPSHOT"
   :description "lightweight literate programming for clojure -- inspired by [docco](http://jashkenas.github.com/docco/)"
 ;;  :main marginalia.main
   :dependencies
@@ -11,8 +11,7 @@
   [[lein-clojars "0.6.0"]
    [jline "0.9.94"]
    ;; lein vimclojure& #starts the nailgun server
-   [org.clojars.autre/lein-vimclojure "1.0.0"]
-   [lein-marginalia "0.7.0-SNAPSHOT"]]
+   [org.clojars.autre/lein-vimclojure "1.0.0"]]
   :resources-path "vendor"
   ;;Needed for testing Latex equation formatting. You must download
   ;;and install MathJax in you doc directory.
